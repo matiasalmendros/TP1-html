@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: grey;
+            color:  white;
+        }
+        header{
+            background-color: rgb(59, 58, 58);
+        }
+        footer{
+            background-color: rgb(59, 58, 58);
+        }
+        h1{
+            font-weight: bold;
+        }
+        h2{
+            font-style: italic;
+        }
+        h3{
+            text-decoration: underline;
+        }
+        h4{
+            color: red;
+        }
+        h5{
+            text-shadow: 2px 2px 1px rgba(218, 8, 8, 0.5); 
+        }
+        h6{
+            font-style: oblique;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+        }
+        table ,th ,tr ,td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<header>   
+    <nav>
+        <ul>
+            <li><a href="#section2">Encabezados y Propiedades del texto</a></li>
+            <li><a href="#section3">Divisiones y Agrupacion de Contenido</a></li>
+            <li><a href="#section4">Enlaces y listas</a></li>
+            <li><a href="#section5">Elementos Multimedia</a></li>
+            <li><a href="#section6">Tablas</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <section id="section2">
+        <h1>2.Encabezados y Propiedades del texto</h1>
+        <h1>Este es un h1 y en negrita</h1>
+        <h2>Este es un h2 y en cursiva</h2>
+        <h3>Este es un h3 y con subrayado</h3>
+        <h4>Este es un h4 y con otro color</h4>
+        <h5>Este es un h5 y 3d</h5>
+        <h6>Este es un h6 y oblique</h6>
+    </section>
+    <section id="section3">
+        <h1>3.Divisiones y Agrupacion de Contenido</h1>
+        <div>
+            <h4>Div 1</h4>
+            <p>Contenido del div</p>
+        </div>
+        <div>
+            <h4>Div 2</h4>
+            <p>Contenido del div</p>
+        </div>
+    </section>
+    <section id="section4">
+        <h1>4.Enlaces y listas</h1>
+        <p>Aca hay un link externo: <a href="https://www.instagram.com/zuck">Instagram de Zuckerberg</a></p>
+        <div>
+            <ol>
+                <li><a href="#section2">Punto 2</a></li>
+                <li><a href="#section3">Punto 3</a></li>
+                <li><a href="#section4">Punto 4</a></li>
+                <li><a href="#section5">Punto 5</a></li>
+                <li><a href="#section6">Punto 6</a></li>
+            </ol>
+        </div>
+        <div>
+            <ol>
+                <li>Elemento 1 ordenado</li>
+                <li>Elemento 2 ordenado</li>
+                <li>Elemento 3 ordenado</li>
+            </ol>
+        </div>
+        <div>
+            <ul>
+                <li>Elemento 1 desordenado</li>
+                <li>Elemento 2 desordenado </li>
+                <li>Elemento 3 desordenado</li>
+            </ul>
+        </div>
+    </section>
+    <section id="section5" class="section5">
+        <h1>5.Elementos Multimedia</h1>
+        <audio src="./video/albion online es un mmorpg no lineal.ogg" controls></audio>
+        <img src="./img/albiononline.jpg"/>
+        <iframe src="./video/albion online es un mmorpg no lineal.mp4"></iframe>
+    </section>
+    <section id="section6">
+        <h1>6.Tablas</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                </tr>
+                <tr> 
+                    <td>Dato 3</td>
+                    <td>Dato 4</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Fin columna 1</th>
+                    <th>Fin columna 2</th>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    <footer>
+        <form>
+            <label>Nombre:</label>
+            <input type="text">
+            <label>Email:</label>
+            <input type="email">
+            <label>Mensaje:</label>
+            <textarea></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </footer>
+</body>
+</html>
